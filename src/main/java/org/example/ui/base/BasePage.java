@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class BasePage extends Base {
+public abstract class BasePage extends Base {
     protected HeaderComponent header;
 
     @FindBy(how = How.XPATH, using = "//div[@class='header']")

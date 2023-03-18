@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class Base {
+public abstract class Base {
     private static final int EXPLICIT_WAIT = 15;
 
     protected WebDriver driver;

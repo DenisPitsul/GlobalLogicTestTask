@@ -14,7 +14,7 @@ public class ApiTest {
     private static final String URL = "https://restful-booker.herokuapp.com";
 
     @Test
-    public void test() {
+    public void apiTest() {
         Specifications.installSpecification(Specifications.requestSpec(URL), Specifications.responseSpecOK200());
 
         // Create token
